@@ -1,0 +1,17 @@
+{
+  "name": "swag-training/authors-page-loader",
+  "description": "Display authors on every page",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagTraining\\AuthorsPageLoader\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagTraining\\AuthorsPageLoader\\SwagTrainingAuthorsPageLoader",
+    "label": {
+      "en-GB": "Display authors on every page"
+    }
+  }
+}
